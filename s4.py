@@ -87,8 +87,28 @@
 #         print(n+1-i, end=" ")
 #     print()
 
-n = int (input("Enter the number of rows: "))
-for i in range(1, n+1):
-    for j in range(1, 1+i):
-        print(i, end=" ")
-    print()
+# n = int (input("Enter the number of rows: "))
+# for i in range(1, n+1):
+#     for j in range(1, 1+i):
+#         print(i, end=" ")
+#     print()
+
+# adding a student name and marks in the dictionary and then we will search for the marks of a student by name
+
+# n = int(input("enter no of students: "))
+# d={}
+# for i in range(n):
+#     name = input("enter name of student: ")
+#     marks = int(input("enter marks of student: "))
+#     d[name] = marks
+# while True:
+#     name = input("enter name of student, whose marks you want to see: ")
+#     marks = d.get(name, -1)
+#     if marks == -1:
+#         print("student not found")
+#     else:
+#         print("marks of student: ", marks)
+#     option = input("do you want to continue? (y/n): ")
+#     if option == 'n':
+#         break
+# print("thank you for using the program")
